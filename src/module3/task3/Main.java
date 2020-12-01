@@ -1,8 +1,5 @@
 package module3.task3;
 
-import module3.task3.RegularExpressions;
-import module3.task3.XMLParser;
-
 import java.io.IOException;
 
 public class Main {
@@ -11,12 +8,12 @@ public class Main {
 
         RegularExpressions regularExpressions = new RegularExpressions();
 
-        String text = "Раз. Два.\n" +
-                "Раз.\n" +
-                "Раз. Два. Три. Четыре. Пять. Шесть.\n" +
-                "Раз. Два. Три. Четыре. Пять.\n" +
-                "Раз. Два. Три. Четыре.\n" +
-                "Раз. Два. Три.\n";
+        String text = "еРаз. Два.\n" +
+                "пРаз.\n" +
+                "вРаз. Два. Три. Четыре. Пять. Шесть.\n" +
+                "рРаз. Два. Три. Четыре. Пять.\n" +
+                "чРаз. Два. Три. Четыре.\n" +
+                "яРаз. Два. Три.\n";
 
         System.out.println("Сортировка по количеству предложений: ");
         regularExpressions.sortParagraphs(text);
@@ -27,6 +24,7 @@ public class Main {
 
         System.out.println("--------------------------------------------");
         System.out.println("Сортировка лексем по убыванию: ");
+        regularExpressions.sortLexemes(text);
 
 
         XMLParser xmlParser = new XMLParser();

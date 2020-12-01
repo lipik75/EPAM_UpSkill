@@ -1,6 +1,7 @@
 package module5.present.action;
 
-import module5.present.maker.*;
+import module5.present.maker.CandyPresentMaker;
+import module5.present.maker.PresentDirector;
 import module5.present.store.*;
 
 import java.io.FileNotFoundException;
@@ -67,17 +68,13 @@ public class CustomerAction {
         int option = checkInputOption();
         Wrap wrap = null;
         switch (option) {
-            case 1:
-                wrap = new Wrap(WrapType.CARDBOARD_BOX);
+            case 1: wrap = new Wrap(WrapType.CARDBOARD_BOX);
                 break;
-            case 2:
-                wrap = new Wrap(WrapType.METAL_BOX);
+            case 2: wrap = new Wrap(WrapType.METAL_BOX);
                 break;
-            case 3:
-                wrap = new Wrap(WrapType.FOIL_POUCHES);
+            case 3: wrap = new Wrap(WrapType.FOIL_POUCHES);
                 break;
-            case 4:
-                return new Wrap(WrapType.PLASTIC_BAG);
+            case 4: return new Wrap(WrapType.PLASTIC_BAG);
         }
         return wrap;
     }
@@ -138,18 +135,13 @@ public class CustomerAction {
                     double price = Double.parseDouble(productLine[2]);
                     CandyType candyType;
                     switch (productLine[3]) {
-                        case "Caramel":
-                            candyType = CandyType.CARAMEL;
+                        case "Caramel": candyType = CandyType.CARAMEL;
                             break;
-                        case "Chocolate":
-                            candyType = CandyType.CHOCOLATE;
+                        case  "Chocolate": candyType = CandyType.CHOCOLATE;
                             break;
-                        case "Gummies":
-                            candyType = CandyType.GUMMIES;
+                        case "Gummies": candyType = CandyType.GUMMIES;
                             break;
-                        case "Licorice":
-                        default:
-                            candyType = CandyType.CARAMEL;
+                        default: candyType = CandyType.CARAMEL;
                     }
                     candies.add(new Candy(productName, weight, price, candyType));
                 } catch (NullPointerException e) {

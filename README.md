@@ -11,12 +11,12 @@ Course Goal:
         
 AGENDA: 
 
-        MODULE 1 - Basics of software code development;
-        
-        MODULE 2 - Algorithmization;
-        
-        MODULE 3 - Strings and basics of text processing;
-        
-        MODULE 4 - Programming with classes;
-        
-        MODULE 5 - Basics of OOP;
+> [Unit1 - Basics of software code development](https://github.com/lipik75/EPAM_UpSkill/tree/master/src/module1)
+
+> [Unit2 - Algorithmization](https://github.com/lipik75/EPAM_UpSkill/tree/master/src/module2)
+
+> [Unit3 - Strings and basics of text processing](https://github.com/lipik75/EPAM_UpSkill/tree/master/src/module3)
+
+> [Unit4 - Programming with classes](https://github.com/lipik75/EPAM_UpSkill/tree/master/src/module4)
+
+> [Unit5 - Basics of OOP](https://github.com/lipik75/EPAM_UpSkill/tree/master/src/module5)

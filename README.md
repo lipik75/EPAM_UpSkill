@@ -1,12 +1,12 @@
 # EPAM_UpSkill
 
-Course Goal: 
+        Course Goal: 
 
-        to give a good dive into Java Language basics;
+> to give a good dive into Java Language basics;
         
-        to give very first impression on how Java programs work and how they should be designed;
+> to give very first impression on how Java programs work and how they should be designed;
         
-        to give an overview and experience of usage of main infrastructural tools of Java Development;
+> to give an overview and experience of usage of main infrastructural tools of Java Development;
         
         
 TASKS: 

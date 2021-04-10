@@ -9,7 +9,7 @@
 > to give an overview and experience of usage of main infrastructural tools of Java Development;
         
         
-TASKS: 
+         TASKS: 
 
 > [Unit1 - Basics of software code development](https://github.com/lipik75/EPAM_UpSkill/tree/master/src/module1)
 
